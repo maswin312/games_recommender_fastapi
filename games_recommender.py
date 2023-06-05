@@ -1,6 +1,5 @@
 import pickle
-
-# import implicit
+from fastapi import FastAPI
 import pandas as pd
 
 model = pickle.load(open("model_v2.pkl", "rb"))
